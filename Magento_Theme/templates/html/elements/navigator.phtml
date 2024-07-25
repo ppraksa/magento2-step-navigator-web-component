@@ -1,0 +1,12 @@
+<?php
+
+declare(strict_types=1);
+
+use Magento\Framework\View\Element\Template;
+use Magento\Framework\Escaper;
+
+/** @var Template $block */
+/** @var Escaper $escaper */
+?>
+<script type="module" defer src="<?= $block->getViewFileUrl('Magento_Theme::js/step_navigator.js'); ?>"></script>
+<step-navigator></step-navigator>
